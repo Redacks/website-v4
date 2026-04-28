@@ -12,7 +12,7 @@
   },
   "routes": [
     {
-      "pattern": "redacks.com",
+      "pattern": "www.redacks.com",
       "custom_domain": true,
     },
   ],
