@@ -1,0 +1,34 @@
+---
+import MainLayout from "../Layout.astro";
+import Hero from "../components/sections/Hero.astro";
+import AboutMe from "../components/sections/AboutMe.astro";
+import Projects from "../components/sections/Projects.astro";
+import Blog from "../components/sections/Blog.astro";
+import Contact from "../components/sections/Contact.astro";
+import ScrollControls from "../components/ScrollControls.astro";
+---
+
+<MainLayout
+    title="Redacks | Home"
+    description="Explore my portfolio, projects and blog. I'm a student passionate about building software and sharing my journey."
+    keywords={[
+        "redacks",
+        "niklas",
+        "ahlers",
+        "student",
+        "software",
+        "projects",
+        "blog",
+        "about me",
+        "contact",
+    ]}
+>
+    <Hero />
+    <AboutMe />
+    <Projects />
+    <Blog />
+    <Contact />
+    <ScrollControls
+        sectionIds={["HOME", "ABOUT", "PROJECTS", "BLOG", "CONTACT"]}
+    />
+</MainLayout>
