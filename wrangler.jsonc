@@ -1,7 +1,7 @@
 {
   "compatibility_date": "2026-04-28",
   "compatibility_flags": ["global_fetch_strictly_public"],
-  "name": "redacks-website",
+  "name": "website-v4",
   "main": "@astrojs/cloudflare/entrypoints/server",
   "assets": {
     "directory": "./dist",
